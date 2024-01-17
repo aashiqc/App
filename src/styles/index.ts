@@ -4171,11 +4171,11 @@ const styles = (theme: ThemeColors) =>
         },
 
         updateRequiredViewHeader: {
-            height: 70,
+            height: variables.updateViewHeaderHeight,
         },
 
         updateRequiredViewTextContainer: {
-            width: 310,
+            width: variables.updateTextViewContainerWidth,
         },
     } satisfies Styles);
 
